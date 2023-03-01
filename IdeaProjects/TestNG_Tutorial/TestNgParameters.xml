@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="URL" value="DHFLHomeLoans.com"/>
+    <parameter name="APIkey/Username" value="Harsha@123"/>
+    <test name="Home Loans Demo">
+        <classes>
+            <class name="TestNgPrograms.TestNgParameters"/>
+        </classes>
+    </test>
+</suite>

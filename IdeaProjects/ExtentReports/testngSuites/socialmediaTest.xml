@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Social Media">
+    <groups>
+        <run>
+            <include name="social"/>
+        </run>
+    </groups>
+    <test verbose="2"  name="Social Media Test">
+        <classes>
+            <class name="Tests"/>
+        </classes>
+    </test>
+</suite>
